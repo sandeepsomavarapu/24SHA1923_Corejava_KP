@@ -1,0 +1,314 @@
+Java:
+======
+
+Language: English,telugu,hindi,tamil.....
+
+	Communication with human
+	
+Programming Language:
+
+	Communication with machine--S/W
+	
+	application-->programs--PL
+	
+	c,c++,java,python,.net...
+	
+	
+	JAVA
+	
+	
+		POP					OOP
+B,BCPL,C,COBOL,PHOTON...  C++,Java,Python,.net......oops features
+
+			Performance:Inheritance,Polymorphisam
+			Security:   abstraction,encapsulation
+					
+
+Why Java?
+
+	1)Platform Independent --java app-->WORA
+	2)garbage Colletion -->automated-->garbage collector-->
+	
+	
+		netflix-app-->platform independent
+		
+		devices -IOS,android,windows
+		
+		sun micro system -->Oracle	microsoft
+		windows-11					windows-11
+		
+		java app						.net app--platform dependent
+			
+		
+		
+roopa 			mayuri
+linux			mac
+		
+		
+		
+		OAK-->Java-->1996 JDK 1.0  -->James Gosling
+		
+			   2024	java 22 mar
+		
+	Hello World
+
+Java App
+	welcome to java
+	
+	
+	Java-->JDK --8 java 19-->8
+
+
+https://www.javatpoint.com/javafx-how-to-install-java
+
+java 8  2030
+java 22
+
+LTS-->
+
+JSE-->
+				Java
+JSE 			JEE 		  JME
+
+
+standalone apps /desktop -->notepadd++,vlc mediaplayer,eclipse,...JSE:corejava/awt/swings
+
+web apps	-->gmail,amazon,.....JEE:Servlets,jsp,mvc,...
+
+mobile apps	-->JME:android
+
+
+Java app-->compile,run
+
+
+java setup
+
+	java -version
+	javac -version
+
+	1.8
+	8
+
+	jdk 1.0
+		6
+		7
+		8
+		9
+		
+		.c
+		.cpp
+		.html
+		.css
+		.js
+		.java
+		
+		
+	alphabates	
+	
+	keywords -->PL-->53-->lowercase 
+	
+	compailation
+	execution
+	JVM
+	JDK
+	JRE
+	Compiler
+	.java
+	.class
+	
+Identifiers:
+============
+	identification 
+	
+	any name in java will call it as identifier
+	
+	
+	class name,variable name,method name,interface name,label name
+	
+	a-z
+	A-Z
+	0-9
+	$
+	_
+	
+	we can use digits in identifier but we cannot start with start digit 
+	
+	class
+	
+	
+	Variables & Datatypes:
+	======================
+			variable is name given to the memory location
+			
+				
+	syntax:
+			
+			datatype varname=value;
+			
+					 age=32
+				long contact=99090909090//
+	
+	datatypes: 10
+	
+		PDT 			NPDT
+		8 keywords			arrays,String,...
+		
+		byte     -128 to 127				1 byte	
+		short	-32768 to 32767				2 bytes
+		int		-2147483648 to				4 bytes					numeric data
+		long								8 bytes
+		
+		float    4 bytes 	 5 to 6 decimal  23.4872734233234
+		double 	 8 bytes	14 to 15 				decimal
+		
+		char	 2 bytes	'M'  / 'F'		UNICODE-18	ASCII  a-97 A-65	
+		boolean	 1 bit	true-1,false-0
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+
+
+
+	
+
+
+
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
