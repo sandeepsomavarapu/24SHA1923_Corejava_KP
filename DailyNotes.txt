@@ -143,7 +143,7 @@ Identifiers:
 				
 	syntax:
 			
-			datatype varname=value;
+			datatype varname=value;//static typed PL    let/var a=123   
 			
 					 age=32
 				long contact=99090909090//
@@ -163,6 +163,148 @@ Identifiers:
 		
 		char	 2 bytes	'M'  / 'F'		UNICODE-18	ASCII  a-97 A-65	
 		boolean	 1 bit	true-1,false-0
+		
+		
+eclipse,intellji,myeclipse,vscode....IDE
+		
+		
+		eclipse 
+		
+ctrl + a
+ctrl+shift+f	 to format java file
+ctrl + space	to get template suggestions
+ctrl+/   to add or remove single line comments
+
+
+package 
+
+import  -->#include stdio.h
+		    #include conio.h
+
+
+folder-->its a collection of files
+
+package -->its a collection of java/class files
+
+
+		2 types packages
+		
+		predfined  6000+  System,String   Java api and packages
+		
+		user defined -->package
+
+package names must be in lower case
+	
+		java.lang.
+		java.awt
+		java.io
+		java.util
+		....
+
+
+		System-->PascalCase
+		methodnames/variable names--->camelCase
+		
+		SandeepSomavarapu-->pascal case -->classes/interfaces
+		sandeepSomavarapu-->camelcase-->methods/variables
+		packagename -->lowercase
+		
+
+
+Variables:		
+		instance/static 
+		
+		2 types
+		
+		1)local variable		-->the variable which is defined inside the method/block
+		2)global variable       -->the variable which is declared inside the class and outisde the method 
+		
+			instance /non static
+			static 
+4 key points
+Syntax:
+======
+		we will use static keyword to define static properties(variable/method/block) 
+		if there is no keyword static that is instance(variable/method/block) 
+Memory:
+=======
+		static properties will get memory only once at the time class loading into JVM   javac filename.java  java classname
+
+		instance properties will get memory at the time of object creation
+		
+				class is a collection of data members(variables) and member functions(methods)  class classname{}
+				object is a instance(memory) of a class		
+					classname objname=new classname();//syntax to create an object
+Access:
+=======
+		we can access static properties by using classname
+		we can access instance properties by using object reference
+Usage:
+=======
+		for common properties where we required one time memory will go with static
+				countryname-->india-->common
+				orgname	-->kpmg
+				statename-->telangana 
+				schoolname-->SHS
+				collegename-->nova
+		for unique data will go with instance which is different for object to object, where we required unique memory 	
+			eid,ename,esal,edesg,eaadhar,econtact
+						
+arrays:
+=======		
+		int eid=123;
+			eid=124;
+			
+			sop(eid);//124
+		
+		
+		variables-->only one value 
+		
+		multiple values 
+		
+		arrays-->group of values of same type
+		[]
+		
+		
+		int marks[]={123,321,222,412,122,1244,5912,89};
+		int marks[]=new int[10];//size is mandatory  AIOE
+		
+		index-->0,1,2,3,4,5,6,7,8,9
+		
+		
+		marks[0]=11
+		marks[1]=21
+		marks[2]=90
+		marks[10]=78;//AIOE
+		
+		
+		int arr[][]=new int[3][3];2-d
+		
+		
+Flow Control statements:
+=======================
+		
+		
+			if
+			else
+			switch
+			for
+			do
+			while
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

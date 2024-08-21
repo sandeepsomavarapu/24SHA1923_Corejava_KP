@@ -1,0 +1,14 @@
+Identify the classes, attributes, methods and the relationships between the classes for the below use case. You can show the relationship by using class diagrams.
+
+1) A company wants to store the details of their meeting rooms. There are two types of meeting rooms one with Zoom calling facility and the second one without zoom calling facility.
+Both the meeting rooms are identified by a unique id. Application also maintains the information about calling facility maintains other information like zoom device id and the zoom account id.
+Any Employee can book the meeting room by giving the following information.
+Employee id, meeting date, meeting time, and duration All meetings are stored by the application and any employee can get all the meetings information by entering the date of meeting.
+
+2) Write a method which accepts Name of a person as a parameter returns a Welcome message. To test call this method from the main method and display the output in the main method.
+ Eg. If the person enters Naveen then it should return Hello Naveen Welcome to Java Worlds
+
+3) Write a method which accepts 3 numbers as parameter and returns the biggest among three numbers.
+
+4) Write a method which accepts a 3 digit number and returns as shown in the below example 
+Eg. If the user enters 951 as input then application should print the below string. “(9 X 100) + (5 X 10) + 1”
