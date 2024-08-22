@@ -1,0 +1,45 @@
+1)	Write the below methods in a class by giving proper implementation.
+ public void add(int a, int b)
+ public void add(long a, long b)
+ public void add(float a, float b)
+ public void add(short a, short b)
+
+Call all the methods by passing parameters as different parameters.
+Hint: to call method add(short a, short b) type add((short)5,(short)6)
+
+=================================================================================================================================================
+
+2)	Write necessary methods in a class based on the below rules
+a.	Method call add(10,20) should return 30
+b.	Method call add(10,20,30) should return 60
+c.	Method call add(10.5,20.1) should return 30.6
+d.	Method call add(“Hello”,20) should return Hello 20
+
+==================================================================================================================================================
+3)	Write a class Student with the following attributes
+•	student of type integer
+•	studentName of type String
+•	city of type String
+•	marks1 of type integer
+•	marks2 of type integer
+•	marks3 of type integer
+•	feeperMonth of type float
+•	eligibleFOrDiscount of type Boolean
+
+ Write all the setter/getter for all the attributes along with the below methods
+•	getAnualFee() it should return the product of feePerMonth and 12
+•	getTotalMarks() it should return sum of marks1, marks2 and marks3
+•	getAverage() it should return average of marks1, marks2 and marks3
+•	getResult() it should return “Pass”  if the person get more than 60 marks in each and every subject otherwise it should return “fail”.
+
+Create another class TestMain with the main method and write necessary instructions for the below actions
+•	Create three objects of the above class.
+•	Populate the objects by calling setter methods.
+•	Print the name of the student with the highest total.
+•	Print the name and fee of the Student with the least monthly fee
+•	For every student print the name, total, average, and result of the student in single line.
+•	If the value of the eligibleFOrDisscount is true then print “Discount voucher is applicable”
+         Else it should display “Discount voucher not applicable”.
+
+Please note : For all assignments create one exclusive class for writing main method. Use this method for creating objects of other classes / make calls to test methods,…..
+==================================================================================================================================================================================
