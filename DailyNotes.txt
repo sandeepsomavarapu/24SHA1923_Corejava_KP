@@ -503,6 +503,7 @@ public class InheritanceTest {
 		
 		
 					abstract class:it is combination both concrete and abstract methods  0-100
+					
 				1.abstract class can have only concrete methods
 				2.abstract class can have only abstract methods
 				3.a normal class cannot have abstract methods
@@ -513,11 +514,6 @@ public class InheritanceTest {
 					
 				Interface:	
 		
-		interface Animal {
-			public void animalSound(); // interface method (does not have a body)
-			public void run(); // interface method (does not have a body)
-		}
-		
 			1)we can achieve abstraction 100%
 			2)we cannot create object for interface
 			3)we can achieve MI in java 
@@ -525,7 +521,10 @@ public class InheritanceTest {
 			5)interface variables are by default public static final
 			6)to use interface methods there must be implementation class
 			
-		
+				interface Animal {
+			public void animalSound(); // interface method (does not have a body)
+			public void run(); // interface method (does not have a body)
+		}
 		Multiple Inheritance:
 		=====================
 		Java Doesn't support MI using classes
@@ -570,38 +569,99 @@ public class InheritanceTest {
 		}
 		
 		
+Polymorphisam,Encapsulation,public,private,protected,default,final,this,super,constructor
 		
 		
 		
 		
+		constructor:
+		=============
+	
+	
+		special method which is used to intialize the object
+		
+		
+		
 		
 	
+	classname objname=new classname();
+	classname objname=new constructor();//constructor calling--JVM 
+	
+		Test test=new Test()
+	
+		default constructor
+		
+		parameterized constructor
+		
+	class Test
+	{
+			public int m1()//must be called explicitly 
+			{
+			return 123;
+			}
+	
+			public Test(){//at the time of object creation constructor will get called automatically
+				System.out.println("Default Constructor")
+			}
+			
+			public Test(String name){
+				System.out.println("Param Constructor")
+			}
+	}
+	
+	Polymorphisam:
+	=============
+	many+forms
+	
+	
+method overloading/compile time polymorphisam/static binding
+==================
+		method name is same signature is different
+								(no of params,order params,type params)				
+	
+	type promotion
+
+method overriding/run time polymorphisam/dynamic binding
+===================
+	method name is same and implementation is different
+
+
+		inheritance
+	
+@Overide-->optional annotation
+	
+this 
+====
+		this keyword is used to represent current class properties(variable,method,constructor,object) 
+
+
+super
+=======	
+	
+		super keyword is used to represent parent class properties(variable,method,constructor) 
 	
 	
 	
+NOTE:
+
+		By default package for every java file is java.lang
+		By default parent class for every java class is java.lang.Object
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+final:
+======
+		three places
+		
+			1.variable	--> final variables can't be modified
+			2.method 	-->final methods can't be overriden
+			3.class		-->final classes can't be inherited 
+
+public,private,protected,default
+
+
+
+
+encapsulation	
 	
 	
 	
