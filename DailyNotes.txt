@@ -661,7 +661,179 @@ public,private,protected,default
 
 
 
-encapsulation	
+encapsulation:
+==============
+
+	it is a process wrapping the data and corresponding methods together 
+	
+	
+		data-->private
+		methods-->public -->setters and getters
+	
+	
+	class Employee{
+			private int empId;
+			private String empName;
+			private int empSal;....
+			
+			
+			//setters and getters
+			...set,get
+			
+			
+Exception Handling:
+===================
+
+Problems without exception handling:
+
+		1)Abnormal Termination
+		
+		2)System defined error messages
+		
+		
+1
+2------------------->stop the execution  ---->abnormal termination--->raise -->message
+3
+4
+5
+6
+7
+.
+.
+.
+.
+1000
+
+Advantages With Exception Handling:
+		1)normal Termination
+		
+		2)user friendly error messages
+		
+		
+		try,catch,finally,throw,throws
+		
+		
+		
+		
+		try		-->error code
+		
+		catch	-->handling code 
+		
+		finally	-->cleanup code
+		
+		throw   -->to throw an error explicitly
+		
+		throws  -->info to the caller
+		
+				super class for all the exception classes --->Throwable
+				
+				
+				synchronous   				asynchronous
+		
+		
+		
+	Exception/Throwable/RuntimeException	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+
+
+
+
+
+
+
+String/StringBuffer/StringBuilder
+=================================
+
+
+
+
+
+Multi Threading
+===============
+
+
+
+
+File IO
+=======
+
+
+Java8 Features:
+================
+
+
+
+
+Git Overview:
+=============
+
+
+
+
+Web app/webservices:
+=====================
+
+
+
+
+
+			
+			
+			
+			
+			
+			
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
