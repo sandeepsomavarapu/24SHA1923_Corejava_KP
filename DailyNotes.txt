@@ -735,53 +735,71 @@ Advantages With Exception Handling:
 	Exception/Throwable/RuntimeException	
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-		
-
-
-
-
-
-
-
-
-String/StringBuffer/StringBuilder
+String/StringBuffer/StringBuilder	: java.lang
 =================================
 
+	to represent group of characters -->S,SB,SB
 
 
+	String -->imuttable-->fixed(we cannot modify)
+	StringBuffer/StringBuilder-->muttable (we can modify)
+
+		
+			"welcome to string class"
+			
+	String orgName="kpmg";//string literal
+	
+	String name=new String();
+
+	SCP-->String constant pool
+
+
+String buffer methods are synchronized
+String builder methods are not synchronized
 
 
 Multi Threading
 ===============
+
+multi tasking:executing multiple tasks at a time 
+
+
+			process based multi tasking:executing several tasks simultaniously where each task is seperate independent process
+			
+			thread based multi tasking :executing several tasks simultaniously where each and every task belongs same process
+
+				multi threading
+
+					1)implementes Runnable 
+					2)extends Thread
+					
+					thread life cycle
+					
+					synchronization
+					
+					inter thread communication
+					
+							wait()
+							notify()
+							notifyAll()
+					
+
+priorities- 1-10
+
+main-5
+
+
+
+
+interface :its a collection abstract methods 
+functional interface :its a interface which has only one abstract method.(Runnable,comparable,comparator....)
+marker interface:its a interface with zero methods  (Serializable) 
+
+
+
+
+
+
 
 
 
