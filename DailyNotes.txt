@@ -768,9 +768,13 @@ multi tasking:executing multiple tasks at a time
 			
 			thread based multi tasking :executing several tasks simultaniously where each and every task belongs same process
 
+			process is collection of threads
+			
+			thread is a smallest unit of process
+			
 				multi threading
 
-					1)implementes Runnable 
+					1)implementes Runnable -->run
 					2)extends Thread
 					
 					thread life cycle
@@ -795,9 +799,63 @@ interface :its a collection abstract methods
 functional interface :its a interface which has only one abstract method.(Runnable,comparable,comparator....)
 marker interface:its a interface with zero methods  (Serializable) 
 
+Collections:-
+=============
+
+		variables
+				
+				
+		arrays		
+
+		int array[]=new int[10];
+		index-0,1,2,3
+		
+		1)only homogeneous data allowed.
+		2)size is fixed or not growable in nature   AIOE
+		3)no utility methods
+		
+Collections
+
+		1)both homogeneous and heterogeneous data is allowed 
+		2)not fixed in size and growable in nature 
+		3)lots of utility methods
+
+
+List:
+======
+
+	group of objects as a single entity where 
+		1.duplicates are allowed
+		2.insertion order is followed
+
+
+			AL
+			LL
+			V
+			S
+
+			java.util
+
+
+SET:
+======
+		
+	group of objects as a single entity where 
+		1.duplicates are not allowed
+		2.insertion order is not followed
+		
+		
+		Set
+				HashSet
+				LinkedHashset
+				treeset
 
 
 
+Comparable-->FI-->compareTO-->NSO
+
+
+Comparator-->FI -->compare-->CSO
 
 
 
