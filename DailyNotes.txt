@@ -846,9 +846,9 @@ SET:
 		
 		
 		Set
-				HashSet
-				LinkedHashset
-				treeset
+				HashSet			duplicates are not allowed ,insertion order is not followed
+				LinkedHashset	duplicates are not allowed ,insertion order is followed
+				treeset			duplicates are not allowed ,based on sroting order 
 
 
 
@@ -858,12 +858,65 @@ Comparable-->FI-->compareTO-->NSO
 Comparator-->FI -->compare-->CSO
 
 
+MAP:
+====
+	if we want to store group of objects as key ,value pair 
+	
+		key can be any datatype ,value also can be an datatype
+		key must be unique ,value can be duplicate
+		
+		HashMap		 	duplicate keys are not allowed,values can be duplicate	,and insertion order is not followed	
+		LinkedHashMap   duplicate keys are not allowed,values can be duplicate	,and insertion order is followed
+		TreeMap			duplicate keys are not allowed,values can be duplicate	,and insertion order is not followed,it will follow sorting order based on keys
+
+File IO/Stream IO
+=================
+
+			IO
+		files
+		
+		java <---->file
+		
+
+java.io
+
+File,FileWriter,BufferedWriter,PrintWriter,BufferedReader,FileReader
+
+
+	
+Serialization/Deserialization
+
+
+		object-->file 		-->serialization
+		file--->object		-->deserialization
+
+
+ProductManagementApp
+	1.Add Product
+	2.Update Product
+	3.Delete Product
+	4.Get Product
+	5.Get All Products
+	6.Get All Products Between Prices
+	7.Get All Products By Category
+	
+	MAP
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
 
-File IO
-=======
 
 
 Java8 Features:
